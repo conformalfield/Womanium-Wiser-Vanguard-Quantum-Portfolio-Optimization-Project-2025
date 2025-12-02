@@ -22,8 +22,8 @@ Classical Optimization: Employs classical optimizers like L-BFGS-B to find the o
 
 1.  **Clone the repository:**
     ```bash
-    git clone [[https://github.com/your-username/your-repo-name.git](https://github.com/conformalfield/Womanium-Wiser-Vanguard-Quantum-Portfolio-Optimization-Project-2025.git)]([https://github.com/your-username/your-repo-name.git](https://github.com/shrjawa/Vanguard_project.git))
-    cd your-repo-name
+    git clone https://github.com/conformalfield/Womanium-Wiser-Vanguard-Quantum-Portfolio-Optimization-Project-2025.git [your-local-repo-name]
+    cd [your-local-repo-name]
     ```
 
 2.  **Create a virtual environment** (recommended):
