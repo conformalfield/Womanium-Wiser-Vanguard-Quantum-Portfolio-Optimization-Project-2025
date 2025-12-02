@@ -32,10 +32,11 @@ Classical Optimization: Employs classical optimizers like L-BFGS-B to find the o
     python -m venv venv # Create the virtual environment named `venv`
     # Activate the environment (Linux/macOS)
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    # Activate the environment (Windows Command Prompt or PowerShell)
+    source venv\Scripts\activate
     ```
     if conda:
     ```
-    
     conda create --name project_name
     conda activate project_name
     ```
