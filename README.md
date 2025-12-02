@@ -22,14 +22,15 @@ Classical Optimization: Employs classical optimizers like L-BFGS-B to find the o
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/conformalfield/Womanium-Wiser-Vanguard-Quantum-Portfolio-Optimization-Project-2025.git [your-local-repo-name]
-    cd [your-local-repo-name]
+    git clone https://github.com/conformalfield/Womanium-Wiser-Vanguard-Quantum-Portfolio-Optimization-Project-2025.git your-local-repo-name
+    cd your-local-repo-name
     ```
 
 2.  **Create a virtual environment** (recommended):
     ```bash
-    cd Vanguard_project
-    python -m venv venv
+    cd your-chosen-folder-name
+    python -m venv venv # Create the virtual environment named `venv`
+    # Activate the environment (Linux/macOS)
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
     if conda:
