@@ -46,8 +46,34 @@ Classical Optimization: Employs classical optimizers like L-BFGS-B to find the o
     pip install -r requirements.txt
     ```
     For conda packages can be installed one by one, some may not be available on conda channel
-    
-    
+
+2. **Create a virtual environment** (recommended):
+Using venv (built-in):
+```bash
+# create venv (I prefer .venv to reduce chance of committing it)
+python -m venv .venv
+
+# activate (Linux / macOS)
+source .venv/bin/activate
+
+# activate (Windows PowerShell)
+.venv\Scripts\Activate.ps1
+
+# activate (Windows cmd.exe)
+.venv\Scripts\activate.bat
+```
+
+Or using conda:
+```bash
+conda create --name project_name python=3.10
+conda activate project_name
+```
+
+3. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+(If using conda, you can install packages individually via conda where available, then use pip for the rest.)   
 
 
 
