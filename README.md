@@ -24,29 +24,8 @@ Classical Optimization: Employs classical optimizers like L-BFGS-B to find the o
     ```bash
     git clone https://github.com/conformalfield/Womanium-Wiser-Vanguard-Quantum-Portfolio-Optimization-Project-2025.git your-local-repo-name
     cd your-local-repo-name
-    ```
-
-2.  **Create a virtual environment** (recommended):
-    ```bash
     cd your-chosen-folder-name
-    python -m venv venv # Create the virtual environment named `venv`
-    # Activate the environment (Linux/macOS)
-    source venv/bin/activate 
-    # Activate the environment (Windows Command Prompt or PowerShell)
-    source venv\Scripts\activate
     ```
-    if conda:
-    ```
-    conda create --name project_name
-    conda activate project_name
-    ```
-
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    For conda packages can be installed one by one, some may not be available on conda channel
-
 2. **Create a virtual environment** (recommended):
 Using venv (built-in):
 ```bash
